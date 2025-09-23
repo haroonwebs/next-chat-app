@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.navlinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-size: medium;
+  font-weight: 700;
+}
