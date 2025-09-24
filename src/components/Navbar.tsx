@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <header className="w-full h-[10vh] flex items-center justify-between bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white px-10">
       <Link className="font-bold text-xl" href="/">
-        Logo
+        <Image src="/assets/talk-icon.png" alt="Logo" width={40} height={40} />
       </Link>
 
       {/* Desktop Nav */}
